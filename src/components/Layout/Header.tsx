@@ -29,14 +29,14 @@ const Header: React.FC = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <li><Link href={'/'}>Home</Link></li>
-                        <li><Link href={'/'}>Collections</Link></li>
+                        <li><Link href={'/collections'}>Collections</Link></li>
                         <li><Link href={'/'}>New</Link></li>
                     </ul>
                 </div>
 
                 <ul className="menu menu-horizontal px-1 hidden lg:flex">
                     <li><Link href={'/'}>Home</Link></li>
-                    <li><Link href={'/'}>Collections</Link></li>
+                    <li><Link href={'/collections'}>Collections</Link></li>
                     <li><Link href={'/'}>New</Link></li>
                 </ul>
             </div>
