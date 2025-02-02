@@ -39,7 +39,50 @@ const Filters: React.FC = () => {
                 </div>
             </div>
             <hr className="h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
-            <div><h2 className="text-lg font-medium">Slides</h2></div>
+            <div><h2 className="text-lg font-medium">
+                <div className="collapse collapse-arrow bg-base-200">
+                    <input type="checkbox" />
+                    <div className="collapse-title text-xl font-medium">Category</div>
+                    <div className="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow bg-base-200">
+                    <input type="checkbox" />
+                    <div className="collapse-title text-xl font-medium">Colors</div>
+                    <div className="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow bg-base-200">
+                    <input type="checkbox" />
+                    <div className="collapse-title text-xl font-medium">Price Range</div>
+                    <div className="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow bg-base-200">
+                    <input type="checkbox" />
+                    <div className="collapse-title text-xl font-medium">Collections</div>
+                    <div className="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow bg-base-200">
+                    <input type="checkbox" />
+                    <div className="collapse-title text-xl font-medium">Tags</div>
+                    <div className="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow bg-base-200">
+                    <input type="checkbox" />
+                    <div className="collapse-title text-xl font-medium">Ratings</div>
+                    <div className="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+            </h2></div>
         </div>
     );
 };

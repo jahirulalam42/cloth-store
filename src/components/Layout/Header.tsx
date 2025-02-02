@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import { FaRegHeart } from 'react-icons/fa';
 import { IoPersonOutline } from 'react-icons/io5';
 import { RiShoppingBag4Fill } from 'react-icons/ri';

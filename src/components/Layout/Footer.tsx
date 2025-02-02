@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import React from 'react'
 import FooterLogo from '../../../public/assets/footerLogo.png'
 import Logo from '../../../public/assets/Logo.png'
@@ -31,9 +31,9 @@ const Footer: React.FC = () => {
                 <div className='flex flex-col gap-10'>
                     <p>Technologies</p>
                     <div className='relative w-[345px] h-[198px]'>
-                        <Image src={FooterLogo} alt='Footer Logo' fill />
+                        <Image src={FooterLogo} alt='Footer Logo' layout="fill" />
                         <div className='relative h-[47px] w-[47px] top-0'>
-                            <Image src={Logo} alt='Footer Logo' fill />
+                            <Image src={Logo} alt='Footer Logo' layout="fill" />
                         </div>
                     </div>
                 </div>
