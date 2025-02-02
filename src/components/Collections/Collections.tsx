@@ -1,5 +1,6 @@
 import React from 'react'
 import Products from './Products'
+import Filters from './Filters'
 
 const Collections = () => {
     return (
@@ -16,12 +17,9 @@ const Collections = () => {
                     </label>
                 </div>
                 <div className="drawer-side bordered border-2 border-black">
-                    <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-                        {/* Sidebar content here */}
-                        <li><a>Sidebar Item 1</a></li>
-                        <li><a>Sidebar Item 2</a></li>
-                    </ul>
+                    <div className='w-96'>
+                        <Filters />
+                    </div>
                 </div>
             </div>
         </div>
